@@ -1,0 +1,5 @@
+*.venv/
+github/*
+*test*.py
+*test*.yml
+.DS_Store

@@ -1,0 +1,15 @@
+---
+version: '3.8'
+
+services:
+  media-metadata-mover:
+    image: aegisfatedh/diagrams-repo-runner:latest
+    container_name: diagrams-repo-runner
+    environment:
+      - GIT_REPO=Repo_Here
+      - GIT_TOKEN=Token_Here
+      - GIT_USERNAME=Git_Username_Here
+      - MATCH_PATTERN=Match_Pattern_Here
+      - REPO_BRANCH=Repo_Branch_Here
+      - COMMIT_MESSAGE=Commit_Message_Here
+      # - DRY_RUN=no
